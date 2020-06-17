@@ -11,7 +11,7 @@ public class AppTest {
     @Test 
     public void testName( )
     {
-     org.junit.Assert.assertEquals("rakshith", App.returnName("rakshith"));
+     org.junit.Assert.assertEquals("suresh", App.returnName("rakshith"));
     }
      
     
