@@ -8,8 +8,8 @@ import org.junit.Test;
  */
 public class AppTest {
     
-     
-    public AppTest( String testName )
+    @Test 
+    public void testName( )
     {
      org.junit.Assert.assertEquals("rakshith", App.returnName("rakshith"));
     }
